@@ -210,11 +210,9 @@ fr:
         address1: Adresse
         address2: Adresse complémentaire
         city: Ville
-        country: Pays
         firstname: Prénom
         lastname: Nom
         phone: Téléphone
-        state: Province / Région / État
         zipcode: Code Postal
         company: Company
       spree/calculator/tiered_flat_rate:
@@ -341,8 +339,6 @@ fr:
       spree/property:
         name: Nom
         presentation: Présentation
-      spree/prototype:
-        name: Nom
       spree/return_authorization:
         amount: Montant
         pre_tax_total: Pre-Tax Total
@@ -351,14 +347,6 @@ fr:
       spree/state:
         abbr: Abréviation
         name: Nom
-      spree/state_change:
-        state_changes: Changement d'état
-        state_from: de
-        state_to: à
-        timestamp: Horodatage
-        type: Type
-        updated: Mis à jour le
-        user: Utilisateur
       spree/store:
         mail_from_address: Courriel d'envoi
         meta_description: Description (Meta)
@@ -584,8 +572,6 @@ fr:
               expiry_invalid: Cette carte est invalide
         spree/line_item:
           attributes:
-            currency:
-              must_match_order_currency: Doit correspondre à la devise de la commande
             price:
               not_a_number: is not valid
         spree/refund:
@@ -687,9 +673,6 @@ fr:
       spree/property:
         one: Proprieté
         other: Proprietés
-      spree/prototype:
-        one: Prototype
-        other: Prototypes
       spree/refund_reason:
         one: Raison du remboursement
         other: Raisons du remboursement
@@ -702,9 +685,6 @@ fr:
       spree/return_authorization:
         one: Retour d'autorisation
         other: Retours d'autorisations
-      spree/return_authorization_reason:
-        one: Raison du retour d'autorisation
-        other: Raisons du retour d'autorisation
       spree/role:
         one: Rôle
         other: Rôles
@@ -720,9 +700,6 @@ fr:
       spree/state:
         one: Région
         other: Régions
-      spree/state_change:
-        one: Changement de région
-        other: Changements de région
       spree/stock_location:
         one: Emplacement du stock
         other: Emplacements du stock
